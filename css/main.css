@@ -61,6 +61,7 @@ width:820px;
 margin:0 auto;
 
 }
+
 a{
 text-decoration:none;
 }
@@ -125,6 +126,75 @@ margin: 0 20px;
 clear:both;
 }
 
+caption{
+color: #FFFFFF;
+font: 36px/21px MilkScript;
+
+background-image:url("images/headers/crime_left.jpg"),url("images/headers/crime_right.jpg");
+background-position: left top, right top;
+background-repeat: no-repeat;
+height:69px;
+text-align:center;
+}
+.crime{
+color: #BAF0FF;
+font: 24px/42px Rockwell;
+text-align:left;
+}
+
+.crimePercentage{
+color: #FFFFFF;
+font: bold 24px/42px Rockwell;
+}
+
+#identityFraud .callout{
+background:url("images/bg/identity_fraud_bg.jpg") top left no-repeat;
+width:856px;
+height:482px;
+
+}
+
+#identityFraud h3{
+color: #FFFFFF;
+font: normal 168px/171px "KnockoutHTF27-JuniorBantamwt";
+text-transform: uppercase;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+#identityFraud .green_circle{
+color: #FFFFFF;
+float:right;
+margin-right:2px;
+width:155px;
+margin-top:60px;
+
+}
+
+#identityFraud .green_circle p{
+color: #FFFFFF;
+font: bold 14px Rockwell;
+margin-bottom: 0px;
+}
+
+#identityFraud p{
+color: #BAF0FF;
+font: normal 40px/20px "KnockoutHTF27-JuniorBantamwt";
+text-transform: uppercase;
+margin-top: 0px;
+
+}
+
+#identityFraud .green_circle p.percentage{
+color: #FFFFFF;
+font: bold 74px/62px Rockwell;
+}
+#identityFraud .green_circle p.percentage span{
+color: #FFFFFF;
+font: bold 45px/65px Rockwell;
+vertical-align:text-top;
+}
+
 #intrusionSurvey{
 }
 
@@ -132,6 +202,9 @@ clear:both;
 color: #FFFFFF;
 font: 36px/41px MilkScript;
 text-align:center;
+background-image:url("images/headers/intrusion_left.jpg"),url("images/headers/intrusion_right.jpg");
+background-position: left top, right top;
+background-repeat: no-repeat;
 }
 #intrusionSurvey .brickWall{
 color: #FFFFFF;
@@ -140,12 +213,15 @@ text-transform: uppercase;
 background:url("images/bg/brick_wall.jpg") top center no-repeat;
 width:722px;
 height:303px;
+margin-left: 60px;
 }
 #intrusionSurvey .brickWall p{
 color: #FFFFFF;
-font: normal 220px/19px Knockouthtf66-fullflyweight;
+font: normal 220px Knockouthtf66-fullflyweight;
 text-transform: uppercase;
-margin-left:266px;
+text-align:center;
+margin: 0px 266px 0px 268px; 
+padding-top: 20px;
 }
 
 #intrusionSurvey p.callout{
@@ -203,13 +279,14 @@ padding-left: 0px;
 margin-left: 114px;
 }
 
-.blueBubble p{
+.blueBubble p, #identityFraud .blueBubble p{
 margin-left: 114px;
 color: #9ae6ff;
 font: normal 18px/21px "Rockwell";
 margin-bottom: 0px; 
 margin-top: 0px; 
 margin-right: 30px;
+text-transform:none;
 }
 
 #fraudDiagram{
