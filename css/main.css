@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+@import url ("bootstrap.min.css");
+/*@import url("normalize.css");*/
+
+@font-face {
+    font-family: "MilkScript";
+   src: url("fonts/milkscript/milkscript-webfont.eot?iefix") format("eot"), url("fonts/milkscript/milkscript-webfont.woff") format("woff"), url("fonts/milkscript/milkscript-webfont.ttf") format("truetype"), url("fonts/milkscript/milkscript-webfont.svg#webfontRKbAncvI") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RockwellStd";
+     src: url("fonts/rockwell/rockwellstd-webfont.eot?iefix") format("eot"), url("fonts/rockwell/rockwellstd-webfont.woff") format("woff"), url("fonts/rockwell/rockwellstd-webfont.ttf") format("truetype"), url("fonts/rockwell/rockwellstd-webfont.svg#webfontRKbAncvI") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RockwellStd";
+     src: url("fonts/rockwell/rockwellstd-bold-webfont.eot?iefix") format("eot"), url("fonts/rockwell/rockwellstd-bold-webfont.woff") format("woff"), url("fonts/rockwell/rockwellstd-bold-webfont.ttf") format("truetype"), url("fonts/rockwell/rockwellstd-bold-webfont.svg#webfontRKbAncvI") format("svg");
+   font-style: bold;
+   font-weight: bold;
+}
+
+@font-face {
+    font-family: "Knockouthtf26-juniorflyweight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/knockout/knockhtf26junfly.eot?iefix") format("eot"), url("fonts/knockout/knockhtf26junfly.woff") format("woff"), url("fonts/knockout/knockhtf26junfly.ttf") format("truetype"), url("fonts/knockout/knockhtf26junfly.svg#webfontRKbAncvI") format("svg");
+}
+
+@font-face {
+    font-family: "KnockoutHTF27-JuniorBantamwt";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/knockout/knockhtf27junban.eot?iefix") format("eot"), url("fonts/knockout/knockhtf27junban.woff") format("woff"), url("fonts/knockout/knockhtf27junban.ttf") format("truetype"), url("fonts/knockout/knockhtf27junban.svg#webfontRKbAncvI") format("svg");
+}
+
+@font-face {
+    font-family: "Knockouthtf66-fullflyweight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/knockout/knockhtf66fulfly.eot?iefix") format("eot"), url("fonts/knockout/knockhtf66fulfly.woff") format("woff"), url("fonts/knockout/knockhtf66fulfly.ttf") format("truetype"), url("fonts/knockout/knockhtf66fulfly.svg#webfontRKbAncvI") format("svg");
+}
+
+html, body {
+	/*background-color: #095f79;*/
+	background-color: #0a556b;
+	
+}
+
+body{
+margin:0px;
+padding:0px;
+}
+
+.container{
+width:820px;
+margin:0 auto;
+
+}
+a{
+text-decoration:none;
+}
+
+h1 {
+color: #B7EDFF;
+font: normal 134px/21px Knockouthtf66-fullflyweight;
+text-transform: uppercase;
+font-size:134px;
+line-height:21px;
+
+}
+
+.left{ float:left;}
+.right{float:right;}
+.clearfix{
+clear:both;
+}
+
+.redRibbon{
+	background:url("images/red_ribbon.jpg") top left no-repeat;
+	height:76px;
+}
+.redRibbon h2 {
+	color: #FFFFFF;
+	font: 35px/62px MilkScript;
+	background: url("images/logo.jpg")right center no-repeat;
+	height:62px;
+	margin:0px;
+	margin-left: 135px;
+	width: 570px;
+}
+
+
+span {
+color: #FEFEFE;
+font: bold 24px/21px RockwellStd;
+text-transform: uppercase;
+}
+
+p {
+color: #FFFFFF;
+font: 16px/22px RockwellStd;
+}
+
+.redRibbonEnds{
+background-image:url("images/red_ribbon_left.jpg"),url("images/red_ribbon_right.jpg");
+background-position: left top, right top;
+background-repeat: no-repeat;
+height:48px;
+width:100%;
+}
+.redRibbonEnds h2{
+color: #CB2C16;
+font: 36px/21px MilkScript;
+width:100%;
+margin: 0 20px;
+}
+
+/* ---- */
+.sections{
+clear:both;
+}
+
+#intrusionSurvey{
+}
+
+#intrusionSurvey h3 {
+color: #FFFFFF;
+font: 36px/41px MilkScript;
+text-align:center;
+}
+#intrusionSurvey .brickWall{
+color: #FFFFFF;
+font: normal 220px/19px Knockouthtf66-fullflyweight;
+text-transform: uppercase;
+background:url("images/bg/brick_wall.jpg") top center no-repeat;
+width:722px;
+height:303px;
+}
+#intrusionSurvey .brickWall p{
+color: #FFFFFF;
+font: normal 220px/19px Knockouthtf66-fullflyweight;
+text-transform: uppercase;
+margin-left:266px;
+}
+
+#intrusionSurvey p.callout{
+color: #9AE6FF;
+font: 30px/31px Rockwell;
+text-align:center;
+padding-bottom:10px;
+}
+
+#identityTheft h2 {
+color: #FFFFFF;
+text-transform: uppercase;
+font-size:106px;
+line-height:171px;
+margin:0px;
+font-family:"KnockoutHTF27-JuniorBantamwt";
+text-align:center;
+text-shadow:1px 1px 1px #103f4c;
+
+}
+#identityTheft table{
+padding-bottom:25px
+}
+#identityTheft td{
+padding-right:60px;
+}
+.percentage{
+color: #FFFFFF;
+font: bold 80px/62px Rockwell;
+margin:0;
+text-align:center;
+}
+#identityTheft h2.percentage_txt{
+color: #9AE6FF;
+font: 18px/21px Rockwell;
+text-align:center;
+text-shadow:none;
+letter-spacing:normal;
+}
+.blueBubble{
+background: url("images/bg/security_bubble.jpg") top left no-repeat;
+height:152px;
+padding-bottom: 36px;
+width:817px;
+}
+.blueBubble h4 {
+color: #FFFFFF;
+font: normal 46px/45px "KnockoutHTF27-JuniorBantamwt";
+text-transform: uppercase;
+
+margin-bottom: 0px; 
+padding-top: 50px; 
+margin-top: 0px; 
+padding-left: 0px; 
+margin-left: 114px;
+}
+
+.blueBubble p{
+margin-left: 114px;
+color: #9ae6ff;
+font: normal 18px/21px "Rockwell";
+margin-bottom: 0px; 
+margin-top: 0px; 
+margin-right: 30px;
+}
+
+#fraudDiagram{
+background:url("images/bg/fraudDiagram_bg.png") center no-repeat;
+}
+#fraudDiagram img{
+clear:both;
+vertical-align:middle;
+text-align:center;
+}
+
+#fraudDiagram h3 {
+color: #FFFFFF;
+font: normal 58px/46px "KnockoutHTF27-JuniorBantamwt";
+text-transform: uppercase;
+text-shadow:1px 1px 1px #103f4c;
+text-align:center;
+}
+#fraudDiagram td{
+color: #9AE6FF;
+vertical-align:middle;
+text-align:center;
+}
+#fraudDiagram p{
+color: #9AE6FF;
+font: 24px/25px Rockwell;
+text-align:center;
+}
+.years{
+color:#FFFFFF;
+font: bold 16px/36px Rockwell;
+text-transform: uppercase;
+float:right;
+list-style:none;
+list-style-image:url("images/bullets/yellow_list_icon.jpg");
+}
+
+.years li{
+float:left;
+padding-right:30px;
+}
+#fraudDiagram ul li:first-child{
+list-style-image:url("images/bullets/green_list_icon.jpg");
+}
+
+#fraudDiagram ul li:last-child{
+padding-right:0;
+list-style-image:url("images/bullets/red_list_icon.jpg");
+}
+
+/*____________________Problems Report _________________________________*/
+
+#problemsReport h3{
+color: #B9E1FF;
+font: 22px/21px Rockwell;
+text-align:center;
+}
+#problemsReport p {
+color: #FFFFFF;
+font: 16px/19px Rockwell;
+}
+#problemsReport p strong{
+color: #F4CF7E;
+font: bold 18px/21px Rockwell;
+text-transform: uppercase;
+}
+#problemsReport .columns{
+	padding-top:25px;
+}
+
+.bottomGrayBorder{
+padding-bottom:25px;
+border-bottom: 1px solid #2a6b7e;
+}
+.bottomGrayBorder h2{
+background: none;
+text-align:center;
+}
+.bottomGrayBorder p{
+text-align:center;
+}
+
+/*____________________Footer _________________________________*/
+#fraud{
+height: 196px; 
+padding-bottom: 60px;
+}
+
+#fraud .left, #fraud .right {
+width: 395px;
+}
+
+.columns ul{
+padding-right: 40px;
+margin: 10px 0;
+}
+.columns ul  li{
+list-style:none;
+}
+.columns ul li a, .columns p a,.columns ul li a:link, .columns p a:link{
+color: #1265A6;
+font: bold 14px/21px Arial;
+tex-decoration:none;
+}
+.columns p{
+color: #424242;
+font: 14px/21px Arial;
+}
+
+.columns .right div{
+border-left:1px solid #b6cfdc;
+height:100px;
+}
+
+.columns .right .right{
+padding-left: 20px;
+width:275px;
+}
+.sources ul{
+padding-left: 20px;
+margin:20px 0;
+}
+
+.sources ul li{
+list-style:none;
+}
+.sources ul li a {
+color: #63849C;
+font: 11px/17px Arial;
+tex-decoration:none;
+}
